@@ -1,0 +1,43 @@
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    background-image: url(../inicio/coverBgat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+#section-login{
+    height: 100%;
+    padding: 10px 30px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1.3px solid #5f5f5f;
+    box-shadow: 7px 7px #5f5f5f2a;
+    background-color: white;
+}
+
+#section-login button{
+    background-color: rgb(117, 117, 117);
+    border: none;
+}
+#section-login button:hover{
+    background-color: rgb(179, 1, 1);
+    border: none;
+    transition: 0.5s;
+}
+
+#bunny{
+    position: absolute;
+    display: flex;
+   
+    height: 700px;
+    margin-left: -60%;
+}
+

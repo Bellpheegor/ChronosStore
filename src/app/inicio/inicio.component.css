@@ -1,0 +1,48 @@
+main{
+    min-height: 700px;
+}
+
+#section-banner{
+    min-height: 600px;
+}
+
+#section-banner img{
+    height: 700px;
+}
+
+.example-card{
+    display: flex;
+    margin-top: -30%;
+}
+
+.example-card button{
+    margin-left: 70%;
+  }
+  .example-card button:hover{
+    margin-left: 70%;
+    color: red;
+    transition: 0.5s;
+  }
+
+
+#destaquesImg {
+   margin-left: 43%;
+   height: 70px;
+}
+
+
+mat-grid-tile{
+    padding: 2px;
+    border-radius: 30px;
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card img{
+    height: 300px;
+    width: 400px;
+}
